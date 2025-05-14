@@ -342,7 +342,6 @@
   font-weight: 400;
   font-size: 18px;
   list-style:none;
-  margin-right: 50px;
 }
 
 .footer__menu-link {
@@ -358,7 +357,7 @@
   display: flex;
   justify-content: end;
   list-style:none;
-  margin-right: 75px;
+  margin-right: 25px;
 }
 
 .footer__social-icon {
