@@ -1,15 +1,16 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  align-items: center;
+  align-items: start;
   padding-right: 50px;
   padding-left: 50px;
 }
 
+/*Убрал выравнивание по центру, задал каждому элементу свои margin-top*/
+
 .header_menu {
   justify-self: stretch;
   width: 100%;
-  margin-top: -5px;
 }
 
 .header__links-list {
@@ -17,6 +18,7 @@
   justify-content: start;
   gap: 33px;
   width: 100%;
+  margin-top: 133px;
 }
 
 .header__links-list-item {
@@ -46,7 +48,7 @@
 .address {
   justify-self: end;
   max-width: 240px;
-  margin-top: -7px;
+  margin-top: 95px;
   color: rgba(0, 0, 0, 1);
   font-size: 18px;
   font-style: normal;
